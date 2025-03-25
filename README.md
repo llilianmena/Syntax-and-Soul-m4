@@ -1,5 +1,11 @@
 # ✨ **Syntax and Soul** ✨  
 
+![SS-1](./assets/images/SS-1.png)
+![SS-2](./assets/images/SS-2.png)
+![SS-3](./assets/images/SS-3.png)
+
+
+
 Welcome to **Syntax and Soul** — where you become the author of your own digital space! This app lets you share your thoughts, rants, and brilliant ideas effortlessly. Let’s dive into what this blog can do! 🚀  
 
 ---
