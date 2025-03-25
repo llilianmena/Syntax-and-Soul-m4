@@ -1,0 +1,46 @@
+/* Form container styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Inputs & textarea styling */
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Button styling */
+button {
+    padding: 10px;
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background: #45a049;
+}
+
+/* Error message styling */
+#error {
+    color: red;
+    font-size: 0.9em;
+    text-align: center;
+}

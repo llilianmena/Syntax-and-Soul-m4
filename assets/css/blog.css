@@ -1,0 +1,73 @@
+/* Blog posts container */
+#posts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 10px;
+}
+
+/* Individual blog post styling */
+#posts .post {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+/* Blog post hover effect */
+#posts .post:hover {
+    transform: translateY(-2px);
+}
+
+/* Post title styling */
+#posts .post h2 {
+    color: #333;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+/* Post content styling */
+#posts .post p {
+    color: #555;
+    font-size: 1rem;
+}
+
+/* Author styling */
+#posts .post span {
+    font-style: italic;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+/* Dark mode adjustments */
+.dark-mode #posts .post {
+    background: #333;
+    color: #ddd;
+}
+
+.dark-mode #posts .post h2 {
+    color: #ddd;
+}
+
+.dark-mode #posts .post span {
+    color: #aaa;
+}
+
+/* Header buttons (Back & Dark Mode) */
+header button {
+    padding: 10px;
+    margin: 0 5px;
+    background: #444;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+header button:hover {
+    background: #666;
+}
